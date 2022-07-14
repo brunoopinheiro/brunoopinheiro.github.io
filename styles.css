@@ -1,0 +1,29 @@
+#n-title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #0A122A;
+    color: #F9F9F9;
+}
+
+.emphasis1{
+    text-decoration: underline;
+    color: #38A3A5;
+}
+
+.emphasis2{
+    text-shadow: #6f686d;
+    text-decoration: underline;
+}
+
+.hd-sk{
+    font-size: 1.2em;
+    background-color: #F9F9F9;
+}
+
+.st-sk{
+    font-size: 1.4em;
+    background-color: #F9F9F9;
+}
