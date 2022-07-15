@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    border: 1px dashed;
+/*    border: 1px dashed;*/
 }
 
 body{
@@ -10,13 +10,14 @@ body{
     color: #F9F9F9;
 }
 
+/* DIV MAIN SECTION */
 
 #main-section {
     background-color: #6f686d;
     margin: auto;
-    margin-bottom: 20px;
+    margin: 1% 0%;
+    padding-bottom: 1%;
 }
-
 #n-title{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 700;
@@ -26,21 +27,23 @@ body{
     border-radius: 15px;
     margin-left: 15%;
     margin-right: 15%;
+    margin-bottom: 1%;
 }
-
-/*.s1 {
+#main-section div {
     display: inline-block;
-}*/
+}
 #profile-container {
     margin-left: 2%;
     max-width: 40%;
 }
 #img {
-    border-radius: 30%;
+    border-radius: 40%;
 }
 #personal-description {
     max-width: 40%;
+    margin: auto;
 }
+
 
 .emphasis1{
     text-decoration: underline;
