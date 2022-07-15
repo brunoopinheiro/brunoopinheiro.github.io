@@ -1,11 +1,72 @@
-#n-title{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+*{
+    margin: 0;
+    padding: 0;
+/*    border: 1px dashed;*/
 }
 
 body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: #0A122A;
     color: #F9F9F9;
+}
+
+/* DIV MAIN SECTION */
+
+#main-section {
+    background-color: #6f686d;
+    margin: auto;
+    margin: 1% 0%;
+    padding-bottom: 1%;
+}
+#n-title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    text-align: center;
+    background-color: #0A122A;
+    padding: 15px 30px;
+    border-radius: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 1%;
+}
+#main-section div {
+    display: inline-block;
+}
+#profile-container {
+    margin-left: 2%;
+    max-width: 40%;
+}
+#img {
+    border-radius: 40%;
+    padding: 3%;
+    background-color: #38A3A5;
+}
+#personal-description {
+    max-width: 40%;
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 30px;
+    vertical-align: top;
+    padding: 3%;
+    background-color: #0A122A;
+}
+
+/* DIV LEARNING LIST */
+#learning-lists {
+    margin-left: 30px;
+    margin-bottom: 1%;
+    display: inline-block;
+}
+#learning-lists div {
+    border: 1px solid white;
+    margin: 2%;
+    padding: 2%;
+}
+#list-soft-skills {
+
+}
+#list-hard-skills li:nth-of-type(odd) {
+    font-style: italic;
 }
 
 .emphasis1{
@@ -28,6 +89,3 @@ body{
     background-color: #F9F9F9;
 }
 
-#id {
-    border-radius: 100%;
-}
