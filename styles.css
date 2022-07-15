@@ -38,11 +38,20 @@ body{
 }
 #img {
     border-radius: 40%;
+    padding: 3%;
+    background-color: #38A3A5;
 }
 #personal-description {
     max-width: 40%;
     margin: auto;
+    margin-top: 5%;
+    margin-left: 30px;
+    vertical-align: top;
+    padding: 3%;
+    background-color: #0A122A;
 }
+
+/* DIV LEARNING LIST */
 
 
 .emphasis1{
