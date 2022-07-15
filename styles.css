@@ -27,3 +27,7 @@ body{
     font-size: 1.4em;
     background-color: #F9F9F9;
 }
+
+#id {
+    border-radius: 100%;
+}
