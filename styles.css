@@ -1,11 +1,27 @@
-#n-title{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+*{
+    margin: 0;
+    padding: 0;
 }
 
 body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: #0A122A;
     color: #F9F9F9;
+}
+
+#main-section {
+    background-color: #6f686d;
+}
+
+#n-title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    text-align: center;
+    background-color: #0A122A;
+    padding: 15px 30px;
+    border-radius: 4px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .emphasis1{
@@ -28,6 +44,6 @@ body{
     background-color: #F9F9F9;
 }
 
-#id {
+#img {
     border-radius: 100%;
 }
