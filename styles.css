@@ -5,15 +5,25 @@
 /*    border: 1px dashed;*/
 }
 
+:root {
+    --base-color-1: #72BBB8;
+    --base-color-2: #218380;
+    --base-color-3: #244653;
+    --base-color-4: #046585;
+    --highlight-1: #FFC300;
+    --highlight-2: #FFD486;
+    --highlight-3: #FEB600;
+}
+
 body{
-    background-color: #0A122A;
-    color: #F9F9F9;
+    background-color: var(--base-color-2);
+    color: var(--highlight-2);
 }
 
 /* DIV MAIN SECTION */
 
 #main-section {
-    background-color: #6f686d;
+    background-color: var(--base-color-1);
     margin: auto;
     margin: 1% 0%;
     padding-bottom: 1%;
@@ -21,7 +31,7 @@ body{
 #n-title{
     font-weight: 700;
     text-align: center;
-    background-color: #0A122A;
+    background-color: var(--base-color-3);
     padding: 15px 30px;
     border-radius: 15px;
     margin-left: 15%;
@@ -36,9 +46,9 @@ body{
     max-width: 40%;
 }
 #img {
-    border-radius: 40%;
-    padding: 3%;
-    background-color: #38A3A5;
+    border-radius: 30%;
+    padding: 1%;
+    background-color: var(--highlight-2);
 }
 #personal-description {
     max-width: 40%;
@@ -47,7 +57,7 @@ body{
     margin-left: 30px;
     vertical-align: top;
     padding: 3%;
-    background-color: #0A122A;
+    background-color: var(--base-color-3);
 }
 
 /* DIV LEARNING LIST */
@@ -57,7 +67,7 @@ body{
     display: inline-block;
 }
 #learning-lists div {
-    border: 1px solid white;
+    border: 1px solid var(--base-color-1);
     margin: 2%;
     padding: 2%;
 }
@@ -70,21 +80,20 @@ body{
 
 .emphasis1{
     text-decoration: underline;
-    color: #38A3A5;
+    color: var(--base-color-1);
 }
 
 .emphasis2{
-    text-shadow: #6f686d;
     text-decoration: underline;
 }
 
 .hd-sk{
     font-size: 1.2em;
-    background-color: #F9F9F9;
+    background-color: var(--base-color-1);
 }
 
 .st-sk{
     font-size: 1.4em;
-    background-color: #F9F9F9;
+    background-color: var(--base-color-1);
 }
 
