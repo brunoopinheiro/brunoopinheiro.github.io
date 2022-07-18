@@ -71,9 +71,9 @@ body{
     margin: 2%;
     padding: 2%;
 }
-#list-soft-skills {
+/* #list-soft-skills {
 
-}
+} */
 #list-hard-skills li:nth-of-type(odd) {
     font-style: italic;
 }
