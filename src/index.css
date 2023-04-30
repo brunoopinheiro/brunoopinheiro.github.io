@@ -1,4 +1,13 @@
+:root {
+  --background-color: #272727;
+  --text-color: #cbddd1;
+  --primary-color: #1f5014;
+  --secondary-color: #457d58;
+}
+
 body {
+  background-color: var(--background-color);
+  color: var(--text-color);
   margin: 0;
   font-weight: 300;
   font-family: 'Fira Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

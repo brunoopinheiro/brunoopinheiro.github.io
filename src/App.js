@@ -22,6 +22,7 @@ function App() {
     <div className="App">
       <button
         onClick={toggleLanguage}
+        className="language-toggle"
       >
         {
           language === enUS ? 'Português' : 'English'

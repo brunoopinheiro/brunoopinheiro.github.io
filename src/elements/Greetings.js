@@ -8,7 +8,7 @@ function Greetings() {
   
   return(
     <main>
-      <p>Hello, my name is</p>
+      <small>Hello, my name is</small>
       <h1>Bruno Pinheiro.</h1>
       <h2>I build and create web things.</h2>
       <p>I'm a web developer with experience both in front and back end development. I'm passionate with solving challenges and performance optimization.</p>

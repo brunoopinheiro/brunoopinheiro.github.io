@@ -8,7 +8,7 @@ function BoasVindas() {
 
   return(
     <main>
-      <p>Olá! Me chamo</p>
+      <small>Olá! Me chamo</small>
       <h1>Bruno Pinheiro.</h1>
       <h2>Eu construo e crio coisas para a web.</h2>
       <p>Sou um desenvolvedor web com experiência em desenvolvimento tanto em front, quanto em back end. O que me motiva é resolver desafios e otimizar performances.</p>
